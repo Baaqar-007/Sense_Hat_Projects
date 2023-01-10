@@ -1,0 +1,20 @@
+from sense_hat import SenseHat
+import time
+sense=SenseHat()
+colors = [
+    (255, 0, 0),    # Red (North)
+    (255, 127, 0),  # Orange (North-East)
+    (255, 255, 0),  # Yellow (East)
+    (0, 255, 0),    # Green (South-East)
+    (0, 255, 255),  # Turquoise (South)
+    (0, 0, 255),    # Blue (South-West)
+    (139, 0, 255),  # Purple (West)
+    (255, 0, 255)   # Pink (North-West)
+]
+while True:
+  heading = sense.get_compass()
+  
+  sense.clear()
+  index = int(heading / 45)
+  print(index,heading)
+  sense.set_pixel(index,0,colors[index])
