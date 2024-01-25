@@ -16,10 +16,8 @@ The Sense HAT is an add-on board for Raspberry Pi, made especially for the Astro
 - **Snake Game**: A classic game where you control a snake to eat food without hitting the wall or its tail.
 
 ## Code Snippets
-This section contains some code snippets demonstrating the different functionalities of the Sense HAT.
+It also contains some code snippets demonstrating the different functionalities of the Sense HAT.
 
-## Installation
-Instructions for setting up the Sense HAT and any other necessary components.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
